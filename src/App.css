@@ -1,0 +1,708 @@
+.header-color {
+  background: #1A2980;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header-color a {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+.home-grid {
+  background: #1A2980;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-grid {
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 75%;
+}
+
+.about-text {
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+}
+
+.about-text p {
+  font-size: 18px;
+  font-weight: bold;
+  color: darkblue;
+  margin: 40px;
+}
+
+.about-text a:link {
+  font-size: 18px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.about-text a:visited {
+  font-size: 18px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.projects-grid {
+  display: flex;
+  padding-top: 40px;
+}
+
+/* Resume Page CSS*/
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+  font-family: 'Playfair Display', serif;
+}
+
+.resume-right-col h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.resume-left-col h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+.resume-left-col a:link {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: blue;
+  text-decoration: none;
+}
+
+.resume-left-col a:visited {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: blue;
+  text-decoration: none;
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Contact Me Page CSS*/
+
+.contact-body {
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+
+}
+
+.contact-grid h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.contact-grid p {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+.contact-list a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+.contact-list a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+.my-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text h2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text h3 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  font-family: 'Playfair Display', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.launchScreen {
+  text-align: center;
+}
+
+.launchScreen p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.launchScreen p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.launchScreen h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.loginScreen {
+  text-align: center;
+}
+
+.loginScreen p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.loginScreen p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.loginScreen h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.touchID {
+  text-align: center;
+}
+
+.touchID p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.touchID p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.touchID h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.mainMenuScreen {
+  text-align: center;
+}
+
+.mainMenuScreen p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.mainMenuScreen p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.mainMenuScreen h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.jobEntryScreen {
+  text-align: center;
+}
+
+.jobEntryScreen p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.jobEntryScreen p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.jobEntryScreen h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.adminLogin {
+  text-align: center;
+}
+
+.adminLogin p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.adminLogin p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.adminLogin h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.adminWelcome {
+  text-align: center;
+}
+
+.adminWelcome p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.adminWelcome p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.adminWelcome h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.adminTimeCard {
+  text-align: center;
+}
+
+.adminTimeCard p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.adminTimeCard p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.adminTimeCard h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.ios-text {
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+}
+
+.ios-text p {
+  font-size: 18px;
+  font-weight: bold;
+  color: darkblue;
+  margin: 40px;
+}
+
+.ios-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  color: darkblue;
+  margin: 40px;
+}
+
+.mainMenuScreenRN {
+  text-align: center;
+}
+
+.mainMenuScreenRN p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.mainMenuScreenRN p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.mainMenuScreenRN h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.logActivityScreenRN {
+  text-align: center;
+}
+
+.logActivityScreenRN p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.logActivityScreenRN p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.logActivityScreenRN h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.inputOptionsRN {
+  text-align: center;
+}
+
+.inputOptionsRN p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.inputOptionsRN p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.inputOptionsRN h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.inputSelectionRN {
+  text-align: center;
+}
+
+.inputSelectionRN p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.inputSelectionRN p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.inputSelectionRN h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.logFormScreenRN {
+  text-align: center;
+}
+
+.logFormScreenRN p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.logFormScreenRN p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.logFormScreenRN h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.userInputRN {
+  text-align: center;
+}
+
+.userInputRN p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.userInputRN p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.userInputRN h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.timeEntryRN {
+  text-align: center;
+}
+
+.timeEntryRN p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.timeEntryRN p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.timeEntryRN h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.manualTimeEntryRN {
+  text-align: center;
+}
+
+.manualTimeEntryRN p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.manualTimeEntryRN p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.manualTimeEntryRN h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.currentTimeEntryRN {
+  text-align: center;
+}
+
+.currentTimeEntryRN p:nth-of-type(1) {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 18px;
+  padding: 1em;
+  padding-bottom: 0px;
+}
+
+.currentTimeEntryRN p:nth-of-type(2) {
+  font-family: 'Playfair Display', sans-serif;
+  color: darkblue;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.currentTimeEntryRN h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 33px;
+}
